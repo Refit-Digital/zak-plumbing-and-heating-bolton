@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<!--
+  Images used:
+  1. Hero background: https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&q=80 (Plumbing/heating related, professional feel)
+-->
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zak plumbing and heating Bolton — refitmy.com | Bolton's Trusted Plumber</title>
+<meta name="description" content="Zak Plumbing and Heating Bolton — 5-star rated plumber serving Bolton and surrounding areas. Call 07404 283428 for a free quote today.">
+<meta property="og:title" content="Zak Plumbing and Heating Bolton — Bolton's Trusted Plumber">
+<meta property="og:description" content="5-star rated plumber in Bolton. Boiler repairs, installations, bathrooms & more. Call 07404 283428 for a free quote.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zakplumbingbolton.co.uk">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&q=80">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Zak Plumbing and Heating Bolton",
+  "telephone": "+447404283428",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bolton",
+    "addressRegion": "Greater Manchester",
+    "addressCountry": "GB"
+  },
+  "areaServed": [
+    "Bolton", "Farnworth", "Horwich", "Westhoughton", "Atherton",
+    "Leigh", "Bury", "Chorley", "Wigan"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "49"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "16:00"
+    }
+  ],
+  "priceRange": "££",
+  "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&q=80",
+  "url": "https://zakplumbingbolton.co.uk"
+}
+</script>
+<style>
+:root {
+  --primary: #1a5f7a;
+  --primary-dark: #0d3b4f;
+  --accent: #e8a838;
+  --accent-hover: #d4952e;
+  --white: #ffffff;
+  --off-white: #f7f8fa;
+  --text: #2c3e50;
+  --text-light: #5a6a7a;
+  --shadow: 0 2px 16px rgba(0,0,0,0.08);
+  --shadow-lift: 0 8px 30px rgba(0,0,0,0.14);
+  --radius: 12px;
+  --font-heading: 'Raleway', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  line-height: 1.6;
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+
+/* CTA Bar */
+.cta-bar {
+  background: var(--primary-dark);
+  padding: 8px 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  z-index: 1001;
+  position: relative;
+}
+.cta-bar a {
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition);
+}
+.cta-bar .cta-phone {
+  background: var(--accent);
+  color: var(--primary-dark);
+}
+.cta-bar .cta-phone:hover { background: var(--accent-hover); }
+.cta-bar .cta-whatsapp {
+  background: #25D366;
+  color: var(--white);
+}
+.cta-bar .cta-whatsapp:hover { background: #1fb855; }
+.cta-bar svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+/* Sticky Nav */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+  padding: 0 24px;
+  transition: var(--transition);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.nav.scrolled {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+}
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.nav-logo {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--primary-dark);
+  white-space: nowrap;
+}
+.nav-logo span { color: var(--accent); }
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: var(--transition);
+  position: relative;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: var(--transition);
+}
+.nav-links a:hover { color: var(--primary); }
+.nav-links a:hover::after { width: 100%; }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+}
+.hamburger span {
+  width: 26px;
+  height: 2.5px;
+  background: var(--primary-dark);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+  .nav-links {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    gap: 0;
+    box-shadow: var(--shadow);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .nav-links.open { max-height: 300px; }
+  .nav-links a {
+    display: block;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--off-white);
+  }
+  .nav-links a::after { display: none; }
+}
+
+/* Hero */
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(13,59,79,0.88), rgba(26,95,122,0.72)), url('https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  padding: 60px 24px;
+}
+@media (hover: none) {
+  .hero { background-attachment: scroll; }
+}
+.hero-content {
+  text-align: center;
+  max-width: 720px;
+  color: var(--white);
+}
+.hero-content h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.hero-subtitle {
+  font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+  font-weight: 500;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.hero-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 28px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.hero-stars { display: flex; gap: 2px; }
+.hero-stars svg { width: 20px; height: 20px; fill: var(--accent); }
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: var(--transition);
+}
+.btn-accent {
+  background: var(--accent);
+  color: var(--primary-dark);
+}
+.btn-accent:hover { background: var(--accent-hover); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(232,168,56,0.4); }
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255,255,255,0.5);
+}
+.btn-outline:hover { background: rgba(255,255,255,0.12); border-color: var(--white); }
+.btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+/* Section shared */
+.section { padding: 80px 24px; }
+.section-dark { background: var(--off-white); }
+.container { max-width: 1100px; margin: 0 auto; }
+.section-label {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+.section-subtitle {
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto 48px;
+  font-size: 1.05rem;
+}
+.text-center { text-align: center; }
+
+/* Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.service-card {
+  background: var(--white);
+  padding: 32px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+.service-icon {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.service-icon svg { width: 26px; height: 26px; fill: none; stroke: var(--white); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 8px;
+}
+.service-card p { color: var(--text-light); font-size: 0.92rem; line-height: 1.5; }
+
+/* Why Choose Us */
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+.trust-card {
+  text-align: center;
+  padding: 40px 28px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+.trust-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+.trust-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent), #f0c060);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.trust-icon svg { width: 30px; height: 30px; fill: var(--primary-dark); }
+.trust-card h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--primary-dark);
+  margin-bottom: 8px;
+}
+.trust-card p { color: var(--text-light); font-size: 0.92rem; }
+
+/* Reviews */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.review-card {
+  background: var(--white);
+  padding: 32px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border-left: 4px solid var(--accent);
+}
+.review-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+.review-stars { display: flex; gap: 2px; margin-bottom: 14px; }
+.review-stars svg { width: 18px; height: 18px; fill: var(--accent); }
+.review-text {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.65;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+.review-author {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary-dark);
+}
+.review-source { font-size: 0.8rem; color: var(--text-light); }
+
+/* About */
+.about-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+/* Service Area */
+.area-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.area-pill {
+  background: var(--white);
+  border: 2px solid var(--primary);
+  color: var(--primary-dark);
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: var(--transition);
+}
+.area-pill:hover {
+  background: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+.area-pill.primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+/* Contact */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.contact-card {
+  background: var(--white);
+  padding: 32px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: var(--transition);
+}
+.contact-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+.contact-icon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+.contact-icon svg { width: 24px; height: 24px; fill: var(--white); }
+.contact-icon.whatsapp { background: #25D366; }
+.contact-card h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--primary-dark);
+  margin-bottom: 6px;
+}
+.contact-card a {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: var(--transition);
+}
+.contact-card a:hover { color: var(--accent); }
+
+/* Footer */
+.footer {
+  background: var(--primary-dark);
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  padding: 28px 24px;
+  font-size: 0.88rem;
+}
+.footer a { color: var(--accent); transition: var(--transition); }
+.footer a:hover { color: var(--white); }
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .hero { min-height: 75vh; }
+  .section { padding: 56px 16px; }
+  .services-grid { grid-template-columns: 1fr; }
+  .hero-ctas { flex-direction: column; align-items: center; }
+  .btn { width: 100%; justify-content: center; max-width: 300px; }
+}
+</style>
+</head>
+<body>
+
+<!-- CTA Bar -->
+<div class="cta-bar">
+  <a href="tel:07404283428" class="cta-phone">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    07404 283428
+  </a>
+  <a href="https://wa.me/447404283428" class="cta-whatsapp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c-.001 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<!-- Sticky Nav -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Zak <span>Plumbing</span> & Heating</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Zak Plumbing and Heating Bolton</h1>
+    <p class="hero-subtitle">Your Trusted Plumber in Bolton</p>
+    <div class="hero-rating">
+      <div class="hero-stars">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      5.0 · 49 Google Reviews
+    </div>
+    <div class="hero-ctas">
+      <a href="tel:07404283428" class="btn btn-accent">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        07404 283428
+      </a>
+      <a href="#contact" class="btn btn-outline">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section section-dark" id="services">
+  <div class="container text-center">
+    <p class="section-label fade-in">What We Do</p>
+    <h2 class="section-title fade-in">Our Services</h2>
+    <p class="section-subtitle fade-in">From emergency repairs to full installations, we've got your plumbing and heating covered across Bolton.</p>
+    <div class="services-grid">
+      <!-- Card 1: Boiler Installation -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="14" r="3"/><line x1="8" y1="7" x2="16" y2="7"/></svg>
+        </div>
+        <h3>Boiler Installation</h3>
+        <p>New boiler fitting from trusted brands with up to 10-year warranties and Gas Safe certification.</p>
+      </div>
+      <!-- Card 2: Boiler Repair -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3>Boiler Repairs</h3>
+        <p>Fast, reliable boiler diagnostics and repairs to get your heating back up and running quickly.</p>
+      </div>
+      <!-- Card 3: Central Heating -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2c-4 4-8 7.33-8 12a8 8 0 0 0 16 0c0-4.67-4-8-8-12z"/></svg>
+        </div>
+        <h3>Central Heating</h3>
+        <p>Full central heating installations, radiator fitting, and system upgrades for maximum warmth and efficiency.</p>
+      </div>
+      <!-- Card 4: Bathroom Plumbing -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 12h16"/><path d="M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/><path d="M6 12V5a2 2 0 0 1 2-2h1"/><circle cx="11" cy="5" r="2"/></svg>
+        </div>
+        <h3>Bathroom Plumbing</h3>
+        <p>Complete bathroom installation and plumbing, from showers and baths to full suite replacements.</p>
+      </div>
+      <!-- Card 5: Emergency Plumber -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Emergency Plumbing</h3>
+        <p>Burst pipes, leaks, or no hot water? We offer rapid emergency call-outs across Bolton and beyond.</p>
+      </div>
+      <!-- Card 6: Gas Safety -->
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Gas Safety Checks</h3>
+        <p>Annual gas safety certificates for landlords and homeowners. Fully Gas Safe registered engineer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="section" id="why-us">
+  <div class="container text-center">
+    <p class="section-label fade-in">Why Choose Us</p>
+    <h2 class="section-title fade-in">Bolton Trusts Zak Plumbing</h2>
+    <p class="section-subtitle fade-in">We pride ourselves on quality workmanship, transparent pricing, and going the extra mile for every customer.</p>
+    <div class="trust-grid">
+      <div class="trust-card fade-in">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>15+ Years Experience</h3>
+        <p>Over fifteen years of hands-on plumbing and heating experience across Bolton and Greater Manchester.</p>
+      </div>
+      <div class="trust-card fade-in">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Gas Safe Registered</h3>
+        <p>Fully qualified and Gas Safe registered, giving you complete peace of mind on every job we undertake.</p>
+      </div>
+      <div class="trust-card fade-in">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3>100% Satisfaction Guarantee</h3>
+        <p>We're not happy until you are. Every job comes with our satisfaction guarantee and no hidden charges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="section section-dark" id="reviews">
+  <div class="container text-center">
+    <p class="section-label fade-in">Customer Reviews</p>
+    <h2 class="section-title fade-in">What Bolton Says About Us</h2>
+    <p class="section-subtitle fade-in">Don't just take our word for it — here's what our customers have to say.</p>
+    <div class="reviews-grid">
+      <div class="review-card fade-in">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">"Zak came out the same day to fix our leaking pipe. Incredibly professional, tidy, and reasonably priced. He explained everything clearly and left the place spotless. Highly recommend to anyone in Bolton!"</p>
+        <p class="review-author">Sarah T.</p>
+        <p class="review-source">Google Review</p>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">"Had a new boiler installed by Zak and his team. The whole process was seamless from start to finish. Competitive quote, quality workmanship, and he even helped us sort out our radiator balancing. Top bloke!"</p>
+        <p class="review-author">James M.</p>
+        <p class="review-source">Google Review</p>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">"We've used Zak for everything from our bathroom refit to our annual gas safety check. Always punctual, always fair, and the quality of work is outstanding. Our go-to plumber in Bolton without a doubt."</p>
+        <p class="review-author">Karen D.</p>
+        <p class="review-source">Google Review</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="container text-center">
+    <p class="section-label fade-in">About Us</p>
+    <h2 class="section-title fade-in">Meet Zak Plumbing & Heating</h2>
+    <div class="about-content fade-in">
+      <p>Here at Zak Plumbing and Heating, we've been proudly serving the Bolton community for over fifteen years. What started as a one-man operation has grown into one of the most trusted plumbing and heating services in the area — and that's all thanks to our loyal customers who keep recommending us to their friends and neighbours. We specialise in everything from boiler installations and central heating systems to emergency call-outs and bathroom plumbing, always delivering work to the highest standard with honest, transparent pricing.</p>
+      <p>We know that inviting a tradesperson into your home requires trust, which is why we treat every property like it's our own. We're fully Gas Safe registered, insured, and committed to leaving your home cleaner than we found it. Whether it's a dripping tap in Farnworth or a full heating system in Horwich, no job is too big or too small. We're just a phone call away — and we'd love the chance to show you why Bolton has given us 49 five-star reviews and counting.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Service Area -->
+<section class="section section-dark" id="areas">
+  <div class="container text-center">
+    <p class="section-label fade-in">Where We Work</p>
+    <h2 class="section-title fade-in">Serving Bolton & Beyond</h2>
+    <p class="section-subtitle fade-in">We cover Bolton and the surrounding areas, providing reliable plumbing and heating services across Greater Manchester.</p>
+    <div class="area-pills fade-in">
+      <span class="area-pill primary">Bolton</span>
+      <span class="area-pill">Farnworth</span>
+      <span class="area-pill">Horwich</span>
+      <span class="area-pill">Westhoughton</span>
+      <span class="area-pill">Atherton</span>
+      <span class="area-pill">Leigh</span>
+      <span class="area-pill">Bury</span>
+      <span class="area-pill">Chorley</span>
+      <span class="area-pill">Wigan</span>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section" id="contact">
+  <div class="container text-center">
+    <p class="section-label fade-in">Get In Touch</p>
+    <h2 class="section-title fade-in">Ready to Book? Contact Us Today</h2>
+    <p class="section-subtitle fade-in">Give us a call or drop us a WhatsApp message — we aim to respond within the hour.</p>
+    <div class="contact-grid">
+      <div class="contact-card fade-in">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <h3>Call Us</h3>
+        <a href="tel:07404283428">07404 283428</a>
+      </div>
+      <div class="contact-card fade-in">
+        <div class="contact-icon whatsapp">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c-.001 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </div>
+        <h3>WhatsApp</h3>
+        <a href="https://wa.me/447404283428" target="_blank" rel="noopener">Message Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2026 Zak Plumbing and Heating Bolton · Website by <a href="https://refitmy.com">refitmy.com</a></p>
+</footer>
+
+<script>
+// Hamburger toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+// Close mobile menu on link click
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// Sticky header
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 80) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+}, { passive: true });
+
+// IntersectionObserver fade-in
+const fadeEls = document.querySelectorAll('.fade-in');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+fadeEls.forEach(el => {
+  observer.observe(el);
+  // Immediately show elements already in viewport on page load
+  if (el.getBoundingClientRect().top < window.innerHeight) {
+    el.classList.add('visible');
+  }
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+</body>
+</html>
